@@ -1,0 +1,22 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200,
+            "platform.stdio-buffered-serial": 1
+        }
+    },
+	"config": {
+        "echo-server": {
+            "help": "Build test to be echo server",
+            "value": 1
+        },
+        "echo-server-trace": {
+            "help": "Trace incoming messages on echo server",
+            "value": 0
+        },
+        "wifi-scan": {
+            "help": "Scan and list access points",
+            "value": 0
+        }
+    },
+}
